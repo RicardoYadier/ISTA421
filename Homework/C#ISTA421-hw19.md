@@ -27,8 +27,9 @@ You call the MoveNext method to move the pointer down to the next item in the li
 You use the Reset method to return the pointer back to before the first item in the list.
 
 #### 6. Are IEnumerable and IEnumerator type safe? Why or why not? If not, how do you implement type safety?
-Not type safeit returns an object rather than a specific type. 
+Not type safe it returns an object rather than a specific type. 
 
+Using Generics type
 
 #### 7. Why don’t recursive methods retain state when used with data structures like binary trees?
 Recursive algorithms, such as that used when walking a binary tree, do not lend themselves to maintaining state information between method calls in an easily accessible manner.
